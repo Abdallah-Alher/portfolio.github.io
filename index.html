@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Abdallah Alher Matou" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio_Abdallah_ALHER_MATOU</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- En-tête -->
+        <header>
+            <div class="container">
+                <h1><span class="Nom">ALHER</span> <span class="prenom">Abdallah</span></h1>
+                <nav>
+                    <a href="#acceuil">Accueil</a>
+                    <a href="#a-propos">À propos</a>
+                    <a href="#projets">Projets</a>
+                    <a href="#competences">Compétences</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+      
+        <main>
+            <!-- Partie : Accueil -->
+            <section id="acceuil" class="section-accueil">
+                <div class="container">
+                    <div class="texte">
+                        <p>Je suis <span class="prenom">Abdallah,</span> Développeur en devenir <br> 
+                            passionné par le web et le design !</p>
+                        <a href="https://github.com/Abdallah-Alher/R03.git" class="btn">Voir mes projets</a>
+                    </div>
+                    <img src="images/photo.jpg" alt="Illustration informatique" width="200"/>
+                </div>
+            </section>
+
+            <!-- Partie : À propos -->
+            <section id="a-propos" class="section-a-propos">
+                <div class="container">
+                    <div class="texte">
+                        <h2>À propos</h2>
+                        <p>Je m'appelle <span class="prenom">ALHER</span>, passionné par la <br>
+                        création de sites web modernes et interactifs.</p>
+                        <p>Je suis actuellement étudiant en <span class="devweb">développement web</span>, <br>
+                        et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                        <p>J'adore transformer mes idées en projets concrets <br>
+                        et expérimenter avec les nouvelles technologies.</p>
+                        <a href="docs/CV_Alher_Matou_Abdallah.pdf" class="moncv">Télécharger mon CV</a>
+                    </div> 
+                    <div class="image">
+                        <img src="images/abdallah-alher-matou.JPG" alt="Photo de profil de Abdallah" 
+                        width="200" height="200"/>
+                    </div>
+                </div>
+            </section>
+            <!--Partie : Mes Projets-->
+            <section id="a-propos" class="section-mes-projets">
+                <h2>Mes Projets</h2>
+                <div class="projets">
+                    <div class="projet">
+                        <p>Terminal Hero (Shell Basics)</p>
+                        <a href="https://github.com/Abdallah-Alher/R00.git">Voir</a>
+                    </div>
+                    <div class="projet">
+                        <p>Student Manager (Structures + Fichiers)</p>
+                        <a href="https://github.com/Abdallah-Alher/RO2.git">Voir</a>
+                    </div>
+                    <div class="projet">
+                        <p>Mini Shell – Rush-9 (Compatible Windows)</p>
+                        <a href="https://github.com/Abdallah-Alher/R03.git">Voir</a>
+                    </div>
+                </div>
+            </section>
+            <!-- Partie : Mes compétences-->
+            <section id="competences" class="section-mes-competences">
+                <h2>Mes Compétences</h2>
+                <div class="competences">
+                
+                    <!-- Soft Skills -->
+                    <div class="softskills">
+                        <h3>Soft Skills</h3>
+                        <p>Gestion de projet</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+
+                        <p>Résolution de problème</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%"></div>
+                        </div>
+
+                        <p>Adaptabilité</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Hard Skills -->
+                    <div class="hardskills">
+                        <h3>Hard Skills</h3>
+                        <p>HTML</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+
+                        <p>CSS</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%"></div>
+                        </div>
+
+                        <p>JavaScript</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%"></div>
+                        </div>
+
+                        <p>VS Code</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            
+            <!-- Section Contact -->
+            <section id="contact">
+                <div>
+                    <h2>Vous avez un <span>projet en tête ?</span></h2>
+                    <h3>N'hésitez pas à me <span>contacter</span></h3>
+                    <form>
+                        <div class="ligne">
+                            <input type="text" name="prenom" placeholder="Votre prénom" required>
+                            <input type="text" name="nom" placeholder="Votre nom" required>
+                        </div>
+                        <input type="text" name="sujet" placeholder="Entrer votre sujet" required>
+                        <textarea name="message" placeholder="Votre message"></textarea>
+                        <button type="submit" class="btn">Envoyer</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        
+        <!-- Pied de page -->
+        <footer>
+            <p>Designed by <span>Abdallah</span> with HTML CSS JS</p>
+            <p>Tous droits réservés - 2025</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
